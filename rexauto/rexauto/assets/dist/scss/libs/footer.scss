@@ -1,0 +1,254 @@
+/* ------------------------------------------------
+
+    8. Footer
+
+------------------------------------------------ */
+  .footer {
+    padding-top: 170px;
+    position: relative;
+    overflow: hidden;
+    background: #000 url(../images/footer_bg.jpg) center 0 no-repeat;
+
+    h4 {
+      font-size: 30px;
+      line-height: 45px;
+      margin-bottom: 44px;
+    }
+  }
+  .contacts_box {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 80px;
+    p:not(:last-child) {
+      margin-bottom: 25px;
+    }
+    a {
+      color: #fff;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+  .contacts_cont {
+    text-align: right;
+    margin-bottom: 50px;
+  }
+  .footer_top_btn_wr {
+    margin-bottom: 15px;
+    a {
+      margin-left: 10px;
+      margin-bottom: 15px;
+    }
+  }
+  .footer_phone {
+    position: relative;
+    font-size: 18px;
+    line-height: 22px;
+    display: inline-block;
+
+    .icon-phone {
+      color: #fff;
+      position: absolute;
+      left: -40px;
+      top: 2px;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 15px;
+      font-weight: 800;
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  .contacts_img {
+    padding-left: 60px;
+    margin-top: 12px;
+
+    img {
+      width: auto;
+      max-width: none;
+      box-shadow: 110px 65px 0 0 #d50133;
+    }
+  }
+
+.footer_bottom {
+  border-top: 1px solid #474748; 
+  padding-top: 25px;
+}
+.footer_bottom_in>* {
+  margin-bottom: 20px;
+}
+.footer_logo {
+  width: 440px;
+  
+  .logo {
+    margin-bottom: 12px;
+  }
+}
+
+.footer_links {
+ div {
+  margin-bottom: 5px;
+ }
+}
+.footer_link_1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  line-height: 18px;
+  text-decoration: underline;
+  color: #fff;
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.footer_link_2 {
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none ;
+  color: #fff;
+  &:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+}
+.footer_link_3 {
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration:  underline;
+  color: #a6a6a6;
+  font-weight: 300;
+  &:hover {
+    text-decoration: none;
+    color: #a6a6a6;
+  }
+}
+.footer_box_title:not(:last-child) {
+  margin-bottom: 10px ;
+  padding-top: 5px;
+}
+
+.footer_bottom_box_2 {
+  width: 510px;
+  .footer_phone {
+    display: block;
+    padding-left: 30px;
+    .icon-phone {
+      left: 0;
+    }
+    a {
+      margin-bottom: 2px;
+    }
+  }
+}
+.ml30 {
+  margin-left: 30px;
+}
+.footer_tel_box {
+
+  li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+}
+
+.footer_tel_box {
+  margin-left: 12px;
+}
+.btn_social2 {
+  position: relative;
+  z-index: 1;
+    text-decoration: none !important;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: #25d366;
+    margin-bottom: 15px;
+    -webkit-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+    // &:hover {
+    //  color: #5c5858 !important;
+
+    //  i:before {
+    //    color: #5c5858;
+    //  }
+    // }
+    &:hover {
+    -moz-transform:  scale(1.1);
+    -o-transform:   scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform:  scale(1.1);
+  }
+
+    i {
+      font-size: 16px;
+      text-decoration: none;
+    -webkit-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+    }
+    .icon-viber-logo {
+      margin-left: 2px;
+    }
+    .icon-whatsapp {
+      position: relative;
+      top: -1px;
+    }
+}
+
+.footer_bottom_box_3 {
+  width: 370px;
+} 
+
+.footer_email i {
+  color: #e6e6e6;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.footer_bottom_box_4 {
+  width: 320px;
+} 
+
+
+.social_list {
+  li {
+    display: inline-block;
+  }
+  li:not(:last-child) {
+    margin-right: 18px;
+  }
+  a:hover img ,
+  a:hover svg{
+    -moz-transform:  scale(1.1);
+    -o-transform:   scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform:  scale(1.1);
+  }
+}
